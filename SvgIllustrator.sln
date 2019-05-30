@@ -5,6 +5,12 @@ VisualStudioVersion = 16.0.28803.202
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SvgIllustrator", "SvgIllustrator\SvgIllustrator.csproj", "{581EE849-2212-4481-A3AD-DBD691B1C499}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SvgIllustrator.Services", "SvgIllustrator.Services\SvgIllustrator.Services.csproj", "{710146F5-EE9E-402D-A940-5112234FCB6D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SvgIllustrator.Model", "SvgIllustrator.Model\SvgIllustrator.Model.csproj", "{E7354F13-B6D9-44BD-A6AA-E9A15EC46783}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SvgIllustrator.Model.UnitTests", "SvgIllustrator.Model.UnitTests\SvgIllustrator.Model.UnitTests.csproj", "{E5CE3345-8EBA-466E-9BDB-208467C91351}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +21,18 @@ Global
 		{581EE849-2212-4481-A3AD-DBD691B1C499}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{581EE849-2212-4481-A3AD-DBD691B1C499}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{581EE849-2212-4481-A3AD-DBD691B1C499}.Release|Any CPU.Build.0 = Release|Any CPU
+		{710146F5-EE9E-402D-A940-5112234FCB6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{710146F5-EE9E-402D-A940-5112234FCB6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{710146F5-EE9E-402D-A940-5112234FCB6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{710146F5-EE9E-402D-A940-5112234FCB6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7354F13-B6D9-44BD-A6AA-E9A15EC46783}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7354F13-B6D9-44BD-A6AA-E9A15EC46783}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7354F13-B6D9-44BD-A6AA-E9A15EC46783}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7354F13-B6D9-44BD-A6AA-E9A15EC46783}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5CE3345-8EBA-466E-9BDB-208467C91351}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5CE3345-8EBA-466E-9BDB-208467C91351}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5CE3345-8EBA-466E-9BDB-208467C91351}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5CE3345-8EBA-466E-9BDB-208467C91351}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
